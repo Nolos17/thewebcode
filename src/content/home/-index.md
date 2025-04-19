@@ -1,9 +1,9 @@
 ---
-image: "@assets/astrogon-star.svg"
+image: "@assets/logoManolo.svg"
 imageAlt: Astrogon logo
-title: Astrogon
-content: A rapidly-customizable template for a blog, documentation, and more.
+title: Manolo Torres DEV
+content: Manolo Torres el mas pro.
 button:
-  label: See the Code
+  label: DESCARGA LA HOJA DE VIDA
   link: https://github.com/astrogon/astrogon
 ---
