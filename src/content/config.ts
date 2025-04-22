@@ -87,8 +87,12 @@ const home = defineCollection({
         .object({
           label: z.string(),
           link: z.string().optional(),
-        })
-        .optional(),
+        }),
+      secundarybutton: z
+        .object({
+          label: z.string(),
+          link: z.string().optional(),
+        }),
     }),
 });
 

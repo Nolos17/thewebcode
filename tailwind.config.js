@@ -1,4 +1,5 @@
 import plugin from "tailwindcss/plugin";
+const { addDynamicIconSelectors } = require('@iconify/tailwind')
 
 let font_base = 16;
 let font_scale = 1.25;
@@ -167,7 +168,9 @@ module.exports = {
     },
   },
   plugins: [
+    addDynamicIconSelectors(),
     require("@tailwindcss/typography"),
+    
     require("@tailwindcss/forms"),
     require("tailwind-bootstrap-grid")({
       generateContainer: false,

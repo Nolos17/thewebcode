@@ -5,6 +5,8 @@ import PageHeader from "@/components/common/PageHeader.astro";
 import { markdownify } from "@lib/textConverter";
 import { FaGithub } from "react-icons/fa";
 
+
+
 interface Props {
   entry: PortfolioEntry;
 }
@@ -41,9 +43,10 @@ const { title, description, projects } = entry.data;
                     <li class="list-none">
                       {/* Use markdownify to convert markdown to HTML for each technology */}
                       <div
-                        class="mr-2 px-2 h-8 flex glass-t shadow-none rounded text-txt-p dark:text-darkmode-txt-p items-center justify-center text-center"
+                        class="mr-2 h-8 flex glass-t shadow-none rounded text-txt-p dark:text-darkmode-txt-p items-center justify-center text-center"
                         set:html={markdownify(element)}
-                      />
+                        
+                      />           
                     </li>
                   ))}
                 </div>

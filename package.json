@@ -45,6 +45,8 @@
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
+    "@iconify/json": "^2.2.330",
+    "@iconify/tailwind": "^1.2.0",
     "@tailwindcss/forms": "^0.5.4",
     "@tailwindcss/typography": "^0.5.9",
     "@types/marked": "^5.0.1",
