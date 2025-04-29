@@ -8,9 +8,9 @@ content:
 
 button:
   label: DESCARGAR CV
-  link: https://tusitio.com/CV_ManoloTorres.pdf
+  link: /CV_Manolo_Torres.pdf
 
 secundarybutton:
   label: VER GITHUB
-  link: https://github.com/astrogon
+  link: https://github.com/nolos17
 ---
